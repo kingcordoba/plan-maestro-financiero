@@ -1,0 +1,42 @@
+{
+  "resumen_global": {
+    "saldo_actual": 2207329,
+    "pago_mensual_fijo": 750000,
+    "mes_meta": "Septiembre 2026"
+  },
+  "fugas_de_capital": [
+    { 
+      "id": "compra-1", 
+      "establecimiento": "Rifle Dosquebradas", 
+      "saldo_pendiente": 126600, 
+      "cuotas_totales": 3,
+      "cuotas_pagadas": 1,
+      "valor_por_cuota": 63300,
+      "tasa_interes": 2.08, 
+      "alerta_roja": true,
+      "recomendacion": "Liquidar sumando esto al próximo abono."
+    },
+    { 
+      "id": "compra-2", 
+      "establecimiento": "Mercado Pago", 
+      "saldo_pendiente": 83200, 
+      "cuotas_totales": 9,
+      "cuotas_pagadas": 1,
+      "valor_por_cuota": 10400,
+      "tasa_interes": 0.0, 
+      "alerta_roja": false,
+      "recomendacion": "Dinero gratis. Dejar diferido."
+    }
+  ],
+  "proyeccion_pagos": [
+    { "mes": "Junio", "pago": 774234, "saldo_restante": 2207329, "estado": "Pagado" },
+    { "mes": "Julio", "pago": 750000, "saldo_restante": 1500000, "estado": "Pendiente" },
+    { "mes": "Agosto", "pago": 750000, "saldo_restante": 800000, "estado": "Pendiente" },
+    { "mes": "Septiembre", "pago": 800000, "saldo_restante": 0, "estado": "Meta" }
+  ],
+  "checklist_bbva": [
+    { "id": "doc-1", "tarea": "Solicitar Certificación Laboral (Max 45 días)", "limite": "Finales de Agosto", "hecho": false },
+    { "id": "doc-2", "tarea": "Recopilar últimos 3 desprendibles de pago", "limite": "Principios de Septiembre", "hecho": false },
+    { "id": "doc-3", "tarea": "Descargar extracto TC con saldo anzuelo", "limite": "Septiembre", "hecho": false }
+  ]
+}
