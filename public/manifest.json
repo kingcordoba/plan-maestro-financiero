@@ -7,7 +7,7 @@
   "theme_color": "#00e676",
   "icons": [
     {
-      "src": "/finanzas-icon.svg",
+      "src": "/finanzas-icon.png",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "maskable any"
