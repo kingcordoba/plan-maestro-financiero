@@ -1,0 +1,16 @@
+{
+  "name": "Plan Financiero",
+  "short_name": "PlanFI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#00e676",
+  "icons": [
+    {
+      "src": "/finanzas-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    }
+  ]
+}
